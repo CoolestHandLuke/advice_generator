@@ -1,12 +1,4 @@
 :root {
-    font-family: "Manrope", sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -24,6 +16,13 @@ a:hover {
 }
 
 body {
+    font-family: "Manrope", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
     margin: 0;
     display: flex;
     place-items: center;
@@ -80,7 +79,7 @@ main {
     flex-direction: column;
     background: rgba(49, 58, 73, 255);
     padding: 0 50px;
-    width: 540px;
+    max-width: 540px;
     border-radius: 20px;
     position: relative;
 }
@@ -118,7 +117,6 @@ main p {
     background: #53ffaa;
     position: absolute;
     bottom: -32px;
-    left: 288px;
 }
 
 .btn:hover {
@@ -127,4 +125,29 @@ main p {
 .btn:focus {
     border: none;
     outline: none;
+}
+
+.divider {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.left-bar,
+.right-bar {
+    position: relative;
+    width: 100%;
+}
+
+.bar {
+    position: absolute;
+    top: 14px;
+    width: 100%;
+    border-top: 1px solid #979797;
+}
+
+.left-bar {
+    margin-right: 1rem;
+}
+.right-bar {
+    margin-left: 1rem;
 }
