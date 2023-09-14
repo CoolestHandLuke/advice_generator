@@ -47,5 +47,5 @@ This was my first attempt at using Vite and React in a project, as well as parsi
 
 ## Author
 
--   Website - [https://www.lukeinthecloud.com](https://www.lukedinthecloud.com)
+-   Website - [https://www.coolesthandluke.com](https://www.coolesthandluke.com)
 -   Frontend Mentor - [https://www.frontendmentor.io/profile/coolesthandluke](https://www.frontendmentor.io/profile/coolesthandluke)
